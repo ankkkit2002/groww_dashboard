@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    #nifty_head {
+        display: flex;
+        gap: 20px;
+    }
+
+    #line_1 {
+
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+
+    }
+
+    #stocks {
+        text-decoration: none;
+        padding: 5px;
+        color: rgb(79, 78, 78);
+        font-weight: bold;
+        font-family: Arial;
+
+    }
+
+    #fno {
+        text-decoration: none;
+        padding: 10px;
+        color: grey;
+        font-weight: bolder;
+        font-family: Arial;
+
+    }
+
+    #mutual {
+        text-decoration: none;
+        padding: 10px;
+        color: grey;
+        font-weight: bolder;
+        font-family: Arial;
+    }
+
+    #gold {
+        text-decoration: none;
+        padding: 10px;
+        color: grey;
+        font-weight: bolder;
+        font-family: Arial;
+    }
+
+    #grow_img {
+        margin-top: 10px;
+
+    }
+
+    #search_1st {
+        position: relative;
+        margin-left: auto;
+
+
+
+    }
+
+    #search_bar {
+
+        width: 220px;
+        height: 40px;
+        padding-left: 35px;
+        border-radius: 8px;
+        border: 0.5px solid #dcdcdc
+    }
+
+    #magnify {
+        position: absolute;
+
+        top: 10px;
+        left: 10px;
+    }
+
+    #explore {
+        text-decoration: none;
+        padding: 5px;
+        color: grey;
+        font-size: larger;
+        font-family: Arial;
+    }
+
+    #holdings {
+        text-decoration: none;
+        padding: 5px;
+        color: grey;
+        font-size: larger;
+        font-family: Arial;
+    }
+
+    #position {
+        text-decoration: none;
+        padding: 5px;
+        color: grey;
+        font-size: larger;
+        font-family: Arial;
+    }
+
+    #orders {
+        text-decoration: none;
+        padding: 5px;
+        color: grey;
+        font-size: larger;
+        font-family: Arial;
+    }
+
+    #watchlist {
+        text-decoration: none;
+        padding: 5px;
+        color: grey;
+        font-size: larger;
+        font-family: Arial;
+    }
+
+    #terminal {
+        display: flex;
+        margin-left: auto;
+        gap: 20px;
+        background-color: white;
+
+
+    }
+
+    .nav_2 {
+        display: flex;
+
+
+    }
+
+    #butt1 {
+        background-color: white;
+        border-radius: 5px;
+        border-width: 1px;
+        cursor: pointer;
+
+        color: rgb(102, 101, 101);
+        font-weight: bolder;
+        border: 0.5px solid #d3d2d2;
+        height: 34px;
+        width: 100px;
+
+    }
+
+    #butt2 {
+        background-color: white;
+        border-radius: 5px;
+        border-width: 1px;
+        cursor: pointer;
+        color: grey;
+        font-weight: bolder;
+        border: 0.5px solid rgb(181, 179, 179);
+    }
+
+    .finnibox {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: -6px;
+    }
+
+    hr {
+
+        border: 0.3px solid rgb(224, 223, 223);
+        margin: 20px 0;
+
+    }
+
+    .Most {
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: flex-start;
+
+    }
+
+    .apollo {
+        border: 1px solid rgb(185, 185, 185);
+        width: 175px;
+        border-radius: 15px;
+
+    }
+
+    .reliance {
+        border: 1px solid grey;
+        border-radius: 15px;
+        width: 175px;
+
+
+    }
+
+    .reliance:hover {
+        background-color: rgb(243, 243, 243);
+    }
+
+    .adani:hover {
+        background-color: rgb(243, 243, 243);
+    }
+
+    .adani {
+        border: 1px solid grey;
+        border-radius: 15px;
+        width: 175px;
+
+
+    }
+
+    .tata:hover {
+        background-color:  rgb(243, 243, 243);
+    }
+     .apollo:hover {
+        background-color:  rgb(243, 243, 243);
+    }
+    .tata {
+        border: 1px solid grey;
+        border-radius: 15px;
+        width: 175px;
+
+
+
+    }
+
+    .current {
+        border: 1px solid grey;
+        border-radius: 15px;
+        width: 280px;
+        height: 180px;
+
+
+
+    }
+    .current:hover{
+         background-color:  rgb(243, 243, 243);
+    }
+</style>
+
+<body>
+    <header>
+        <div>
+            <nav id="line_1">
+                <img id="grow_img" src="growwww.jpg" height="60" alt="">
+
+                <a id="stocks" href="stocks.com">Stocks</a>
+                <a id="fno" href="f&O.com">F&O</a>
+                <a id="mutual" href="mutualfunds.com">Mutual Funds</a>
+                <a id="gold" href="Gold.com">Gold</a>
+                <div id="search_1st">
+                    <img id="magnify" src="images.png" height="20" alt="">
+                    <input id="search_bar" type="search" placeholder="Search Groww....    Ctrl+K">
+
+                </div>
+                <img src="bell.jpg" height="40" alt="">
+            </nav><br>
+        </div>
+
+        <div>
+            <nav class="nav_2">
+
+                <a id="explore" href="explore.com">Explore</a>
+                <a id="holdings" href="explore.com">Holdings</a>
+                <a id="position" href="explore.com">Positions</a>
+                <a id="orders" href="order.com">Orders</a>
+                <a id="watchlist" href="watchlist.com">Watchlist</a>
+
+                <div id="terminal">
+                    <button id="butt1"> Terminal</button>
+                    <button id="butt2">915</button>
+                </div>
+            </nav>
+
+
+        </div>
+        <hr>
+
+        <div>
+
+            <nav id="nifty_head">
+                <div class="nifty">
+                    <span style="font-family: Arial; color: rgb(76, 75, 75);font-weight: normal;">NIFTY</span>
+                    <span style="color: rgb(88, 87, 87); font-weight: normal;">24,031</span>
+                    <span style="color: #00B566; font-weight: bold; font-family: Arial ;">312.40(1.32%)</span>
+                </div>
+                <div >
+                    <span style="font-family: Arial; color: rgb(76, 75, 75);font-weight: normal;">SENSEX</span>
+                    <span style="color: rgb(88, 87, 87); font-weight: normal;">76,488.96</span>
+                    <span style="color:#00B566; font-weight: bold; font-family: Arial;">1,073.61(1.42%)</span>
+                </div>
+                <div>
+                    <span style="font-family: Arial; color: rgb(76, 75, 75);font-weight: normal;">BANKNIFTY</span>
+                    <span style="color: rgb(88, 87, 87); font-weight: normal;">55,293.65</span>
+                    <span style="color:#00B566; font-weight: bold; font-family: Arial;">1,238.30(2.29%)</span>
+                </div>
+                <div>
+                    <span style="font-family: Arial; color: rgb(76, 75, 75);font-weight: normal;">MIDCPNIFTY</span>
+                    <span style="color: rgb(88, 87, 87); font-weight: normal;">14,559.90</span>
+                    <span style="color: #00B566; font-weight: bold; font-family: Arial;">178.35(1.24%)</span>
+                </div>
+                <div class="finnibox">
+
+                    <span style="font-family: Arial; color: rgb(76, 75, 75);font-weight: normal;">FINNIFTY</span>
+                    <span style="color: rgb(88, 87, 87); font-weight: normal;">26,102</span>
+
+
+                    <button style="align-items: center; display: flex;"><img src="WWW.png" height="26" alt=""></button>
+
+                </div>
+
+
+
+            </nav>
+
+
+
+        </div>
+        <hr>
+    </header>
+
+
+    <div class="Most">
+
+        <h1 style="color: rgb(81, 80, 80); font-size:larger;font-family: Arial; font-weight: bold;">Most traded stocks
+            on Groww</h1>
+        <h2 style="color: rgb(81, 80, 80); font-size:larger;font-family: Arial; font-weight: bold; margin-right: 100px;"> Your Investments
+        </h2>
+
+    </div>
+
+    <div class="container">
+        <div class="apollo">
+            <a href="apollo.com"><img style="margin-top: 10px; margin-left: 10px;" src="apollo.png" height="35"
+                    alt=""></a>
+            <p style="margin-left: 10px;">Apollo Micro Systems</p>
+            <p style="margin-left: 10px;">₹408.20</p>
+            <p style="margin-left: 10px;color: #00B566;">53.15(14.97%)</p>
+
+        </div>
+        <div class="reliance">
+            <a href="reliance.com"><img style="margin-top: 10px; margin-left: 10px;" src="reliance.jpg" height="35"
+                    alt=""></a>
+            <p style="margin-left: 10px;">Reliance Industries</p>
+            <p style="margin-left: 10px;">₹1400.25</p>
+            <p style="margin-left: 10px;color: #00B566;">43(1.25%)</p>
+        </div>
+
+        <div class="adani">
+            <a href="adani.com"><img style="margin-top: 10px; margin-left: 10px;" src="adani.png" height="35"
+                    alt=""></a>
+            <p style="margin-left: 10px;">Adani Power</p>
+            <p style="margin-left: 10px;">₹225.15</p>
+            <p style="margin-left: 10px;color: #00B566;">2.26(1.15%)</p>
+        </div>
+        <div class="tata">
+            <a href="Tata.com"><img style="margin-top: 10px; margin-left: 10px;" src="tata.png" height="35" alt=""></a>
+            <p style="margin-left: 10px;">Tata Motors</p>
+            <p style="margin-left: 10px;">₹425.25</p>
+            <p style="margin-left: 10px;color: #00B566;">4.25(1.35%)</p>
+        </div>
+        <div class="current">
+            <p style="margin-left: 10px;">Current</p>
+            <p style="margin-left: 10px;">₹15000</p>
+            <div>
+                <span style="margin-left: 10px;">1D returns</span>
+                <span style="margin-left: 10px;color: #00B566;">+₹250(1.66%)</span>
+            </div>
+            <div style="margin-top: 15px;">
+                <span style="margin-left: 10px;justify-content: space-between;">Total returns</span>
+                <span style="margin-left: 10px;color: #00B566;">+₹765(5.52%)</span>
+            </div>
+            <div style="margin-top: 15px;">
+                <span style="margin-left: 10px;">Invested</span>
+                <span style="margin-left: 10px;">₹14000</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
