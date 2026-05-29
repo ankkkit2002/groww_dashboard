@@ -275,6 +275,100 @@
         gap: 20px;
 
     }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .but_title {
+        padding: 8px 15px;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .content_top_movers {
+        border: 1px solid rgb(183, 181, 181);
+        height: 530px;
+        align-items: center;
+        width: 700px;
+        padding: 10px;
+
+    }
+
+    .header,
+    .row {
+        display: grid;
+        grid-template-columns: 220px 140px 180px 120px;
+        padding: 10px;
+    }
+
+    .header {
+        font-weight: bold;
+    }
+
+    .company {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .graph {
+        filter: contrast(1) brightness(1);
+
+    }
+
+    .tools {
+        border: 1px solid grey;
+        width: 300px;
+        height: 650px;
+        padding: 10px;
+        margin-top: -70px;
+
+    }
+
+    .columns_2 {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+
+
+
+    }
+
+    .names {
+        padding-top: 50px;
+    }
+
+    .stocks_2 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .infy {
+        border: 1px solid grey;
+        width: 175px;
+        border-radius: 15px;
+    }
+
+    .wipro {
+        border: 1px solid grey;
+        width: 175px;
+        border-radius: 15px;
+    }
+     .bosch{
+        border: 1px solid grey;
+        width: 175px;
+        border-radius: 15px;
+    }
+     .lodha{
+        border: 1px solid grey;
+        width: 175px;
+        border-radius: 15px;
+    }
 </style>
 
 <body>
@@ -442,13 +536,128 @@
         <button>Losers</button>
         <button>Volume Shockers</button>
 
-        <select name="Index" id="">
-            <option value="Nifty50">Nifty50</option>
-            <option value="BankNifty">BankNifty</option>
-            <option value="Nifty100">Nifty100</option>
-            <option value="Nifty200">Nifty200</option>
-        </select>
+
+    </div><br><br>
+    <div class="columns_2">
+        <div class="content_top_movers">
+            <div class="header">
+                <span>Company</span>
+                <span></span>
+                <span>Market Price (1D)</span>
+                <span>Volume</span>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="company">
+                    <img src="siemens.png" height="40" alt="">
+                    <span>Siemens Energy India</span>
+                </div>
+                <img class="graph" src="graph1.png" height="40" alt="">
+
+                <span>+₹3,943 <br>(5.52%)</span>
+                <span>10,01,231</span>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="company">
+                    <img src="infy.png" height="40" alt="">
+                    <span>Infosys</span>
+                </div>
+                <img class="graph" src="graph1.png" height="40" alt="">
+                <span>+₹3,943 <br>(5.52%)</span>
+                <span>10,01,231</span>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="company">
+                    <img src="lodha.png" height="40" alt="">
+                    <span>Lodha Developers</span>
+                </div>
+                <img class="graph" src="graph1.png" height="40" alt="">
+                <span>+₹3,943 <br>(5.52%)</span>
+                <span>10,01,231</span>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="company">
+                    <img src="bosch.png" height="40" width="50" alt="">
+                    <span>Bosch</span>
+                </div>
+                <img class="graph" src="graph1.png" height="40" alt="">
+                <span>+₹3,943 <br>(5.52%)</span>
+                <span>10,01,231</span>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="company">
+                    <img src="larsen.png" height="40" alt="">
+                    <span>LTM</span>
+                </div>
+                <img class="graph" src="graph1.png" height="40" alt="">
+                <span>+₹3,943 <br> (5.52%)</span>
+                <span>10,01,231</span>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="company">
+                    <img src="wipro.png" height="40" width="40" alt="">
+                    <span>Wipro</span>
+                </div>
+                <img class="graph" src="graph1.png" height="40" alt="">
+                <span>+₹3,943 <br>(5.52%)</span>
+                <span>10,01,231</span>
+            </div>
+        </div>
+
+        <div class="tools">
+            <p class="names1">IPO</p>
+            <hr>
+            <p class="names">ETFs</p>
+            <hr>
+            <p class="names">Intraday Screener</p>
+            <hr>
+            <p class="names">Stocks SIP</p>
+            <hr>
+            <p class="names">MTF stocks</p>
+            <hr>
+            <p class="names">Events calendar</p>
+            <hr>
+            <p class="names">All Stocks screener</p>
+        </div>
     </div>
+
+
+    <div class="stocks_2">
+        <div class="infy">
+            <p>Infosys</p>
+            <p>₹1200</p>
+            <p>43.15(4.77%)</p>
+
+        </div>
+        <div class="wipro">
+            <p>Wipro</p>
+            <p>₹1200</p>
+            <p>63.15(6.97%)</p>
+
+        </div>
+        <div class="bosch">
+            <p>Bosch</p>
+            <p>₹1200</p>
+            <p>-53.15(5.97%)</p>
+
+        </div>
+        <div class="lodha">
+            <p>Lodha Developers</p>
+            <p>₹4000</p>
+            <p>200.15(5.97%)</p>
+
+        </div>
+    </div>
+
 </body>
 
 </html>
