@@ -344,14 +344,17 @@
 
     .stocks_2 {
         display: flex;
-        justify-content: center;
+        
+        align-items: center;
         gap: 20px;
+        margin-top: 10px;
     }
 
     .infy {
         border: 1px solid grey;
         width: 175px;
         border-radius: 15px;
+       
     }
 
     .wipro {
@@ -368,6 +371,30 @@
         border: 1px solid grey;
         width: 175px;
         border-radius: 15px;
+    }
+    .mtf{
+        font-family: Arial;
+        font-size: larger;
+        color: rgb(85, 80, 80);
+        font-weight: bold;
+    }
+    .netweb{
+        border: 1px solid grey;
+          width: 175px;
+        border-radius: 15px;
+    }
+    .stocks_3{
+         display: flex;
+        
+        align-items: center;
+        gap: 20px;
+        margin-top: 10px;
+    }
+    .intraday{
+         font-family: Arial;
+        font-size: larger;
+        color: rgb(85, 80, 80);
+        font-weight: bold;
     }
 </style>
 
@@ -629,31 +656,79 @@
             <p class="names">All Stocks screener</p>
         </div>
     </div>
+    
 
+    <div class="mtf">
+        <p>Most Traded stocks in MTF</p>
+    </div>
 
     <div class="stocks_2">
         <div class="infy">
-            <p>Infosys</p>
-            <p>₹1200</p>
-            <p>43.15(4.77%)</p>
+            <img style="margin-top: 10px; margin-left: 10px;" src="infy.png" height="35" alt="">
+            <p style="margin-left: 10px;color: rgb(99, 98, 98); font-family: Arial; font-weight: normal;">Infosys</p>
+            <p style="margin-left: 10px; color: rgb(68, 64, 64); font-weight: bold;">₹1200</p>
+            <p style="margin-left: 10px;color: #00B566;">43.15(4.77%)</p>
 
         </div>
         <div class="wipro">
-            <p>Wipro</p>
-            <p>₹1200</p>
-            <p>63.15(6.97%)</p>
+             <img style="margin-top: 10px; margin-left: 10px;" src="wipro.png" height="35" alt="">
+            <p style="margin-left: 10px;color: rgb(99, 98, 98); font-family: Arial; font-weight: normal;" >Wipro</p>
+            <p style="margin-left: 10px; color: rgb(68, 64, 64); font-weight: bold;">₹1200</p>
+            <p style="margin-left: 10px;color: #00B566;">63.15(6.97%)</p>
 
         </div>
         <div class="bosch">
-            <p>Bosch</p>
-            <p>₹1200</p>
-            <p>-53.15(5.97%)</p>
+            <img style="margin-top: 10px; margin-left: 10px;" src="bosch.png" height="35" alt="">
+            <p style="margin-left: 10px;color: rgb(99, 98, 98); font-family: Arial; font-weight: normal;">Bosch</p>
+            <p style="margin-left: 10px; color: rgb(68, 64, 64); font-weight: bold;">₹1200</p>
+            <p style="margin-left: 10px;color: #00B566;">-53.15(5.97%)</p>
 
         </div>
         <div class="lodha">
-            <p>Lodha Developers</p>
-            <p>₹4000</p>
-            <p>200.15(5.97%)</p>
+            <img style="margin-top: 10px; margin-left: 10px;" src="lodha.png" height="35" alt="">
+            <p style="margin-left: 10px;color: rgb(99, 98, 98); font-family: Arial; font-weight: normal;">Lodha Developers</p>
+            <p  style="margin-left: 10px; color: rgb(68, 64, 64); font-weight: bold;">₹4000</p>
+            <p style="margin-left: 10px;color: #00B566;">200.15(5.97%)</p>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="intraday">
+        <p>Top intraday stocks</p>
+    </div>
+
+    <div class="stocks_3">
+        <div class="netweb">
+            <img style="margin-top: 10px; margin-left: 10px;" src="netweb.png" height="35" alt="">
+            <p style="margin-left: 10px;color: rgb(99, 98, 98); font-family: Arial; font-weight: normal;">Netweb Technologies</p>
+            <p style="margin-left: 10px; color: rgb(68, 64, 64); font-weight: bold;">₹1200</p>
+            <p style="margin-left: 10px;color: #00B566;">43.15(4.77%)</p>
+
+        </div>
+        <div class="reliance">
+             <img style="margin-top: 10px; margin-left: 10px;" src="reliance.jpg" height="35" alt="">
+            <p style="margin-left: 10px;color: rgb(99, 98, 98); font-family: Arial; font-weight: normal;" >Reliance</p>
+            <p style="margin-left: 10px; color: rgb(68, 64, 64); font-weight: bold;">₹1200</p>
+            <p style="margin-left: 10px;color: #00B566;">63.15(6.97%)</p>
+
+        </div>
+        <div class="tata">
+            <img style="margin-top: 10px; margin-left: 10px;" src="tata.png" height="35" alt="">
+            <p style="margin-left: 10px;color: rgb(99, 98, 98); font-family: Arial; font-weight: normal;">Tata Motors</p>
+            <p style="margin-left: 10px; color: rgb(68, 64, 64); font-weight: bold;">₹600</p>
+            <p style="margin-left: 10px;color: #00B566;">-53.15(5.97%)</p>
+
+        </div>
+        <div class="adani">
+            <img style="margin-top: 10px; margin-left: 10px;" src="adani.png" height="35" alt="">
+            <p style="margin-left: 10px;color: rgb(99, 98, 98); font-family: Arial; font-weight: normal;">Adani Power</p>
+            <p  style="margin-left: 10px; color: rgb(68, 64, 64); font-weight: bold;">₹270</p>
+            <p style="margin-left: 10px;color: #00B566;">200.15(5.97%)</p>
 
         </div>
     </div>
