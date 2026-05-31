@@ -9,11 +9,12 @@
 
 
 <style>
-    body{
+    body {
         justify-content: center;
-       max-width: 1300px;
-       margin: 0 auto;
+        max-width: 1300px;
+        margin: 0 auto;
     }
+
     #nifty_head {
         display: flex;
         gap: 20px;
@@ -281,6 +282,7 @@
         align-items: end;
         gap: 20px;
 
+
     }
 
     .dropdown {
@@ -302,6 +304,8 @@
         align-items: center;
         width: 700px;
         padding: 10px;
+        border-radius: 15px;
+        border-color: rgb(199, 199, 199);
 
     }
 
@@ -333,6 +337,8 @@
         height: 650px;
         padding: 10px;
         margin-top: -70px;
+        border-radius: 15px;
+        border-color: rgb(199, 199, 199);
 
     }
 
@@ -413,7 +419,7 @@
     }
 
     .tradingscreen {
-      margin-left: auto;
+        margin-left: auto;
     }
 
 
@@ -427,7 +433,8 @@
     .container_2 {
         border: 1px solid grey;
         width: 700px;
-        
+        border-radius: 20px;
+        border-color: rgb(207, 207, 207);
     }
 
     .header1,
@@ -437,7 +444,38 @@
         padding: 10px;
         align-items: center;
     }
+
+    .buttons {
+        border-radius: 20px;
+        width: 90px;
+        height: 35px;
+        border-style: none;
+        border: 1px solid;
+        border-width: 1px;
+        border-color: rgb(224, 222, 222);
+        background-color: white;
+    }
+
+    .buttons:hover {
+        background-color: rgb(243, 242, 242);
+    }
+
+    .volume {
+        border-style: none;
+        border: 1px solid;
+        width: 120px;
+        height: 35px;
+        border-radius: 20px;
+        border-width: 1px;
+        border-color: rgb(215, 213, 213);
+        background-color: white;
+    }
+
+    .volume:hover {
+        background-color: rgb(234, 234, 234);
+    }
 </style>
+
 
 <body>
     <header>
@@ -600,9 +638,10 @@
         </div>
     </div>
     <div class="gainer_column">
-        <button>Gainers</button>
-        <button>Losers</button>
-        <button>Volume Shockers</button>
+        <button class="buttons">Gainers</button>
+        <button class="buttons">Losers</button>
+        <button class="volume">Volume
+            Shockers</button>
 
 
     </div><br><br>
@@ -819,7 +858,7 @@
     </div>
 
 
-    <div >
+    <div>
         <p>Sector trending today</p>
     </div>
 
@@ -828,44 +867,44 @@
         <div class="header1">
             <span>sector</span>
             <span>Gainer/Losers</span>
-            <span style="text-align: right;" >1D price change</span>
+            <span style="text-align: right;">1D price change</span>
         </div>
         <hr>
         <div class="row1">
             <span>Plastic snd polymers</span>
-            <img src="20-23.png" alt="">
-            <span  style="text-align: right;">+3.55%</span>
+            <img style="background-color: white;" src="20-23.png" alt="">
+            <span style="text-align: right;">+3.55%</span>
         </div>
         <hr>
         <div class="row1">
             <span>Electronic Manufacturers</span>
-            <img src="15-23.png" alt="">
-            <span  style="text-align: right;">+2.30%</span>
+            <img style="filter: brightness(1.16);" src="15-23.png" alt="">
+            <span style="text-align: right;">+2.30%</span>
 
         </div>
         <hr>
         <div class="row1">
             <span>Footwear</span>
-            <img src="5-9.png" alt="">
-            <span  style="text-align: right;">+1.85%</span>
+            <img style="filter: brightness(1.16);" src="5-9.png" alt="">
+            <span style="text-align: right;">+1.85%</span>
         </div>
         <hr>
         <div class="row1">
             <span>Water Distribution</span>
-            <img src="3-5.png" alt="">
-            <span  style="text-align: right;">-2.95%</span>
+            <img style="filter: brightness(1.16);" src="3-5.png" alt="">
+            <span style="text-align: right;">-2.95%</span>
         </div>
         <hr>
         <div class="row1">
             <span>Education</span>
-            <img src="12-24.png" alt="">
-            <span  style="text-align: right;">-3.56%</span>
+            <img style="filter: brightness(1.16);" src="12-24.png" alt="">
+            <span style="text-align: right;">-3.56%</span>
         </div>
         <hr>
         <div class="row1">
             <span>Waste Management</span>
-            <img src="4-12.png" alt="">
-            <span  style="text-align: right;">-3.72%</span>
+            <img style="filter: brightness(1.16);" src="4-12.png" alt="">
+            <span style="text-align: right;">-3.72%</span>
         </div>
     </div>
 
